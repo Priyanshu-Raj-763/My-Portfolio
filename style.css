@@ -148,8 +148,7 @@ form {
     flex: 1;
 }
 
-input,
-textarea {
+input {
     padding: 10px;
     background-color: #222;
     border-radius: 6px;
