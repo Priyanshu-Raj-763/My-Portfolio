@@ -12,7 +12,9 @@
     .info {
         flex-direction: column;
     }
-
+    #home{
+        gap :50px;
+    }
     .project-list {
         grid-template-columns: 1fr;
     }
@@ -34,15 +36,15 @@
     }
 
     .omnitrix {
-        width: 135px;
-        height: 135px;
+        width: 125px;
+        height: 125px;
     }
 
     .omnitrix img {
-        height: 135px;
+        height: 125px;
     }
 
     #home h1 {
-        font-size: 28px;
+        font-size: 25px;
     }
 }
