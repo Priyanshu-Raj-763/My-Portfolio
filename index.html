@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_query.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -23,7 +24,7 @@
         </nav>
     </header>
     <section id="home">
-        <div class="omnitrix"><img id="watch" src="logo.png" alt=""></div>
+        <div class="omnitrix"><img id="watch" src="logo.png" alt="Portfolio Logo"></div>
         <div>
             <h1>Hi I'm <br><span>Priyanshu Raj</span></h1>
             <p> Its Hero Time </p>
@@ -42,8 +43,8 @@
         </p>
         <div class="resume">
             <h4><a href=" ">Download My Resume</a></h4>
+        </div>
     </section>
-    </div>
     <section id="projects">
         <h2>My Projects</h1>
             <div class="project-list">
@@ -80,7 +81,8 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <form action="https://formsubmit.co/alphaverse616@gmail.com" method="POST">
-            <div class="info"> <input type="text" name="name" placeholder="Your Message " required>
+            <div class="info"> 
+                <input type="text" name="message" placeholder="Your Message " required>
                 <input type="email" name="email" placeholder="Your Email" required>
             </div>
             <button type="submit">Send</button>

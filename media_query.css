@@ -1,0 +1,48 @@
+
+
+
+@media (max-width: 900px) {
+    .project-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .project-list,
+    .info {
+        flex-direction: column;
+    }
+
+    .project-list {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        /* flex-direction: column; */
+        gap: 10px;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+
+    nav ul {
+        /* flex-direction: column; */
+        gap: 10px;
+        font-size: 12px;
+    }
+
+    .omnitrix {
+        width: 135px;
+        height: 135px;
+    }
+
+    .omnitrix img {
+        height: 135px;
+    }
+
+    #home h1 {
+        font-size: 28px;
+    }
+}
